@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Image and Title</title>
+    <style>
+        /* Basic reset and body styles */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Column layout */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            background-color: #282c34; /* Dark background */
+            color: white; /* Text color */
+            font-family: Arial, sans-serif; /* Font style */
+            overflow: scroll; /* Hide overflow */
+        }
+
+        /* Title styles */
+        h1 {
+            font-size: 3rem; /* Large title size */
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 1s forwards; /* Fade-in effect */
+            animation-delay: 0.5s; /* Delay before starting */
+        }
+        
+                a {
+            font-size: 3rem; /* Large title size */
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 1s forwards; /* Fade-in effect */
+            animation-delay: 0.5s; /* Delay before starting */
+        }
+
+        /* Image styles */
+        .image-container {
+            position: relative; /* Position for absolute elements */
+            overflow: hidden; /* Hide overflow from image */
+            width: 50vw; /* Responsive width */
+            height: auto; /* Automatic height */
+            max-height: 90vh; /* Maximum height */
+        }
+
+        img {
+            width: 100%; /* Full width */
+            height: auto; /* Maintain aspect ratio */
+            transition: transform 0.5s ease; /* Smooth transform */
+        }
+
+        /* Image hover effect */
+        .image-container:hover img {
+            transform: scale(1.05); /* Slight zoom on hover */
+        }
+
+        /* Keyframes for fade-in effect */
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Fully visible */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Tiny Toons fan page</h1>
+        
+    <div class="image-container">
+
+		<img src="screen.jpg" alt="" height: 90vh>
+	</div>	
+              <a href="page1.html">Page 1</a>
+              <a href="page2.html">Page 2</a>
+              <a href="page3.html">Page 3</a>
+              <a href="page4.html">Page 4</a>
+              <a href="page5.html">Page 5</a>
+              <a href="page6.html">Page 6</a>
+              <a href="page7.html">Page 7</a>
+              <a href="page8.html">Page 8</a>
+              <a href="page9.html">Page 9</a>
+              <a href="page10.html">Page 10</a>
+              <a href="page11.html">Page 11</a>
+              <a href="page12.html">Page 12</a>
+
+</body>
+</html>
